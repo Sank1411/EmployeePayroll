@@ -138,7 +138,7 @@ class SuplHeadUpdateView(UpdateView):
     # specify the fields
     fields = [
         "SUPLNO",
-        " SUPLHEAD_NAME"
+        "SUPLHEAD_NAME"
     ]
 
     success_url ="show_suplhead"
@@ -409,8 +409,6 @@ class TypeTranListView(ListView):
 
     # specify the model for list view
     model = TypeTran
-
-
 
 class TypeTranUpdateView(UpdateView):
     # specify the model you want to use
